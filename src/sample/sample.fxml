@@ -7,7 +7,7 @@
       xmlns:fx="http://javafx.com/fxml" alignment="center" minWidth="100" minHeight="150">
     <TextArea fx:id="chatTextArea" VBox.vgrow="ALWAYS" editable="false"></TextArea>
     <HBox minHeight="20" minWidth="100" alignment="BOTTOM_RIGHT">
-        <TextField fx:id="chatTextField" HBox.hgrow="ALWAYS" onKeyPressed="#sendMessageByEnter"></TextField>
-        <Button onAction="#sendMessage" alignment="BASELINE_RIGHT" minWidth="50">Send</Button>
+        <TextField fx:id="chatTextField" HBox.hgrow="ALWAYS"></TextField>
+        <Button onAction="#sendMessage" alignment="BASELINE_RIGHT" defaultButton="true" minWidth="50">Send</Button>
     </HBox>
 </VBox>
